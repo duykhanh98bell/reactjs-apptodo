@@ -2,10 +2,15 @@
   "name": "part7-filter",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "14.3.0",
+    "npm": "6.14.5"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "lodash": "^4.17.20",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
@@ -30,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
   }
 }

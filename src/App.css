@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+.text-right {
+  float: right;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.light:hover {
+  background-color: yellow;
+}
+.midle {
+  text-align: center;
+}
+.sort_selected::after {
+  content: '\f00c';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin-left: 30px;
+  display: inline-block;
+}
