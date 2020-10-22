@@ -21,14 +21,14 @@ class App extends Component {
       sortValue: 1,
     };
   }
-  componentDidMount() {
-    if (localStorage && localStorage.getItem('tasks')) {
-      var tasks = JSON.parse(localStorage.getItem('tasks'));
-      this.setState({
-        tasks: tasks,
-      });
-    }
-  }
+  // componentDidMount() {
+  //   if (localStorage && localStorage.getItem('tasks')) {
+  //     var tasks = JSON.parse(localStorage.getItem('tasks'));
+  //     this.setState({
+  //       tasks: tasks,
+  //     });
+  //   }
+  // }
 
   // tao id
   Mid() {
